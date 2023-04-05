@@ -18,10 +18,12 @@ module.exports = {
   },
   plugins: [
     'react',
-    '@typescript-eslint'
+    '@typescript-eslint',
+    'tailwindcss'
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
-    'react/react-in-jsx-scope': 'off'
+    'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
   }
 }
